@@ -13,6 +13,8 @@ You need to clone the `melrose` repository in the parent folder as the `melrose-
 
 ## changes since last tag
 
+Run this in the `melrose` folder.
+
     git log --pretty=format:"%s" $(git describe --tags --abbrev=0 v0.43.0^)..@
 
-&copy; 2022. http://ernestmicklei.com . MIT license
+&copy; 2024. http://ernestmicklei.com . MIT license
